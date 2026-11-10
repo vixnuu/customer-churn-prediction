@@ -1,0 +1,63 @@
+{
+    "model_name": "Logistic Regression Baseline",
+    "target": "Churn",
+    "target_mapping": {
+        "No": 0,
+        "Yes": 1
+    },
+    "numerical_features": [
+        "SeniorCitizen",
+        "tenure",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "categorical_features": [
+        "gender",
+        "Partner",
+        "Dependents",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod"
+    ],
+    "all_features": [
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "tenure",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "test_metrics": {
+        "Accuracy": 0.8055358410220014,
+        "Balanced Accuracy": 0.7267547598749644,
+        "Precision": 0.6572327044025157,
+        "Recall": 0.5588235294117647,
+        "F1 Score": 0.6040462427745664,
+        "ROC-AUC": 0.8421349040274871,
+        "Average Precision": 0.6343385058492537
+    },
+    "cross_validation_folds": 5,
+    "random_state": 42
+}

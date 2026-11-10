@@ -1,0 +1,3 @@
+Model,Best Parameters,accuracy,balanced_accuracy,precision,recall,f1,roc_auc,average_precision,F1 Standard Deviation
+Random Forest,"{'classifier__class_weight': 'balanced', 'classifier__max_depth': 12, 'classifier__min_samples_leaf': 3, 'classifier__n_estimators': 200}",0.7671294450284554,0.7618186062458183,0.5444289046299545,0.7505016722408027,0.6309878673609258,0.8425776774017162,0.6496955216731285,0.014079357592365062
+Logistic Regression,"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced'}",0.7508005503537427,0.765875076444973,0.5199231872841428,0.7979933110367893,0.6294582040225383,0.8455048460881832,0.6592360064932845,0.020892794073033436
